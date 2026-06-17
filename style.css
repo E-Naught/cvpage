@@ -1,4 +1,4 @@
-/* Общие стили для минималистичного дизайна */
+/* minimalism */
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +7,8 @@
 }
 
 body {
-    background-color: #000000; /* Абсолютный черный фон */
-    color: #ffffff;           /* Белый текст */
+    background-color: #000000;
+    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,24 +16,21 @@ body {
     padding: 40px 20px;
 }
 
-/* Контейнер визитки */
 .vcard-container {
     max-width: 600px;
     width: 100%;
-    text-align: center; /* Центрируем текст внутри */
+    text-align: center;
 }
 
-/* Круглый логотип/аватар */
 .avatar {
     width: 100px;
     height: 100px;
-    border-radius: 50%; /* Делает изображение круглым */
+    border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #ffffff; /* Тонкая белая рамка */
+    border: 2px solid #ffffff;
     margin-bottom: 24px;
 }
 
-/* Заголовок и подзаголовок */
 .intro h1 {
     font-size: 2.5rem;
     font-weight: 700;
@@ -43,11 +40,10 @@ body {
 
 .subtitle {
     font-size: 1.2rem;
-    color: #888888; /* Приглушенный серый для иерархии */
+    color: #888888;
     margin-bottom: 48px;
 }
 
-/* Факты и должности */
 .facts {
     margin-bottom: 48px;
 }
@@ -67,12 +63,11 @@ body {
     color: #aaaaaa;
 }
 
-/* Стильная минималистичная кнопка */
 .btn-download {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #ffffff; /* Инверсия: белая кнопка */
-    color: #000000;            /* Черный текст внутри */
+    background-color: #ffffff;
+    color: #000000;
     text-decoration: none;
     font-weight: 600;
     border-radius: 6px;
@@ -81,10 +76,9 @@ body {
 }
 
 .btn-download:hover {
-    background-color: #e5e5e5; /* Легкий серый эффект при наведении */
+    background-color: #e5e5e5;
 }
 
-/* Контакты */
 .contacts h2 {
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -98,7 +92,7 @@ body {
     text-decoration: none;
     margin: 0 12px;
     font-size: 1rem;
-    border-bottom: 1px dashed #ffffff; /* Пунктирное подчеркивание */
+    border-bottom: 1px dashed #ffffff;
     transition: color 0.2s ease, border-color 0.2s ease;
 }
 
